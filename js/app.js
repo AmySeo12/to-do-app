@@ -12,7 +12,7 @@ window.addEventListener("load", function(){
 
 		var text = document.createElement("span");
 		text.innerHTML = texto.value;
-		text.classList.add("col-xs-10","saltos");
+		text.classList.add("col-xs-9","saltos");
 		tareas.appendChild(text);
 
 		var check = document.createElement("input");
