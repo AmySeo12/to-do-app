@@ -1,0 +1,41 @@
+.titulo{
+	background-color: #D6D6D6;
+	text-align: center;
+	margin-bottom: 20px; 
+}
+
+#button{
+	margin: 15px 0px;
+}
+
+.tachado{
+	text-decoration:line-through;
+}
+
+.color{
+	background-color: black;
+	color: white;
+}
+
+.saltos {
+	word-wrap: break-word;
+}
+
+.mensajes{
+	margin-top: 10px;
+	background-color: #D8D8D8;
+	padding: 10px 5px;
+	box-sizing: border-box;
+}
+
+.checks{
+	background-color: white;
+}
+
+@media(max-width: 768px){
+	#contenedor{
+		border-top: 2px solid black;
+		height: 350px;
+		overflow-y: scroll;
+	}
+}
